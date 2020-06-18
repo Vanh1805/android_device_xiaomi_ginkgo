@@ -93,6 +93,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.display.enable_null_display=0 \
     vendor.display.enable_optimize_refresh=1 \
     vendor.gralloc.disable_ubwc=0
+    sys.display-size=3840x2160
+
 
 # DRM
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -174,3 +176,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.early_gl_phase_offset_ns=3000000 \
     debug.sf.early_phase_offset_ns=500000 \
     debug.sf.enable_hwc_vds=1
+	
+# Maintainer
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.cherish.maintainer=KhuongHung
