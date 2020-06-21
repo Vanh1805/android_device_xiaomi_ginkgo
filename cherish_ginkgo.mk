@@ -25,10 +25,6 @@ TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_WIFI_EXT := true
 TARGET_INCLUDE_STOCK_ARCORE := true
 
-# Maintainer
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.cherish.maintainer=KhuongHung
-
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := cherish_ginkgo
 PRODUCT_DEVICE := ginkgo
