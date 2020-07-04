@@ -6,3 +6,8 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/havoc_ginkgo.mk
+
+COMMON_LUNCH_CHOICES := \
+    havoc_ginkgo-eng \
+    havoc_ginkgo-user \
+    havoc_ginkgo-userdebug
