@@ -78,4 +78,4 @@ persist.sys.wfd.virtual=0
 
 # Maintainer
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.cherish.maintainer=KhuongHung
+    ro.havoc.maintainer=Vanh404
